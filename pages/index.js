@@ -2,6 +2,7 @@ import Head from 'next/head'
 import axios from 'axios'
 import {useState} from 'react'
 import Clima from '../components/Clima'
+import Image from 'next/image';
 
 export default function Home() {
   const [city, setCity] = useState(`${process.env.NEXT_PUBLIC_CIUDAD_NAME}`);
@@ -15,8 +16,7 @@ export default function Home() {
     setLoading(true);
     axios.get(url).then((response) => {
       setWeather(response.data);
-      //console.log(response.data);
-    });
+          });
     setCity('');
     setLoading(false);
   };
@@ -29,6 +29,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
          <div >
+         
           <h1 className='text-4xl text-center pb-6'>
             El Clima
           </h1>

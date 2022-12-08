@@ -33,6 +33,6 @@ a {
   }
   body {
     color: white;
-    background: rgb(57, 117, 245);
+    background-image: url("../public/bckg.JPG");
   }
 }
