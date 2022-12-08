@@ -34,5 +34,8 @@ a {
   body {
     color: white;
     background-image: url("../public/bckg.JPG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
