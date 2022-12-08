@@ -32,11 +32,12 @@ a {
     color-scheme: dark;
   }
   body {
-    color: white;
+    
     background-image: url("../public/bckg.JPG");
     background-position: top center;
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
+    height: 100vh;
   }
 }
