@@ -2,7 +2,7 @@ import Head from 'next/head'
 import axios from 'axios'
 import {useState} from 'react'
 import Clima from '../components/Clima'
-import Image from 'next/image';
+
 
 export default function Home() {
   const [city, setCity] = useState(`${process.env.NEXT_PUBLIC_CIUDAD_NAME}`);
