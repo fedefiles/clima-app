@@ -34,7 +34,7 @@ a {
   body {
     
     background-image: url("../public/bckg.JPG");
-    background-position: top center;
+    background-position: center;
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
