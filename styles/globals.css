@@ -31,9 +31,7 @@ a {
   html {
     color-scheme: dark;
   }
-  body {
-    
-    background-image: url("../public/bckg.JPG");
+  body {    
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
