@@ -2,7 +2,6 @@ import Image from 'next/image';
 import React from 'react';
 
 const Clima = ({ data }) => {
-  console.log(data);
   return (
     <div className='relative flex flex-col justify-between max-w-[700px] w-full h-[70vh] m-auto p-4 text-gray-300 z-10'>
  
