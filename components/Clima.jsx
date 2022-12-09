@@ -4,8 +4,9 @@ import React from 'react';
 const Clima = ({ data }) => {
   console.log(data);
   return (
-    <div className='relative flex flex-col justify-between max-w-[700px] w-full h-[90vh] m-auto p-4 text-gray-300 z-10'>
-      {/* Top */}
+    <div className='relative flex flex-col justify-between max-w-[700px] w-full h-[70vh] m-auto p-4 text-gray-300 z-10'>
+ 
+
       <div className='relative flex justify-between pt-12'>
         <div className='flex flex-col items-center'>
           <Image
@@ -18,8 +19,7 @@ const Clima = ({ data }) => {
         </div>
         <p className='text-9xl'>{data.main.temp.toFixed(0)}&#176;</p>
       </div>
-      {/* Bottom */}
-
+    
 <div className='bg-black/50 relative p-8 rounded-md'>
     <p className='text-2xl text-center pb-6'>El Clima en {data.name}</p>
     <div className='flex justify-between text-center'>
