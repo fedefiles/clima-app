@@ -31,7 +31,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
           
-         <div >
+         <div className = "backimg" >
          <Image 
           src="/clima_1280.webp"
           alt="Weather"
@@ -40,14 +40,19 @@ export default function Home() {
         />
           
          </div>
+         <div>
+          <h1 class="text-white-400 text-3xl font-bold">
+            El Clima
+          </h1>
+         </div>
          
          
       <div className='relative flex justify-between items-center max-w-[500px] w-full m-auto pt-4 px-4 text-white z-10'>
       
        <form >
-       
+             
         <div>
-        <input onChange={(e) => setCity(e.target.value)} type="text" placeholder='Ingresa tu Ciudad' class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"></input>
+        <input onChange={(e) => setCity(e.target.value)}   type="text" placeholder='Ingresa tu Ciudad' class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"></input>
         
         </div>
 

@@ -2,7 +2,7 @@ Este es un proyexto [Next.js](https://nextjs.org/) creado con : [`create-next-ap
 
 ## Configuración
 
-Para poder ejecutar el proyecto, lo primero es tener instalado Node.js, lo recomendable es la version 16. Posterior a ello es instlar las dependencias de los paquetes de Node, desde una terminal ejecutar:
+Para poder ejecutar el proyecto, lo primero es tener instalado Node.js, lo recomendable es la version 16. Posterior a ello es instalar las dependencias de los paquetes de Node, desde una terminal ejecutar:
 
 npm install
  
